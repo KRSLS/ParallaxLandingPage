@@ -25,4 +25,5 @@ window.addEventListener("scroll", (event) => {
   hero.style.top = window.innerHeight / 2 + scrollY;
   if (scrollY < 1000) landingPageImage.style.scale = scale;
   landingPageImage.style.filter = `blur(${blur}px)`;
+  hero.style.filter = `blur(${blur}px)`;
 });
