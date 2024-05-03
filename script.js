@@ -14,7 +14,7 @@ window.addEventListener("scroll", (event) => {
   if (scale < 0) scale = 0;
   // if (scale > 2) scale = 2;
 
-  blur += scrollY * 0.008;
+  blur += scrollY * 0.03;
   if (blur < 0) blur = 0;
   if (blur > 40) blur = 40;
 
